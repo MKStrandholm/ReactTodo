@@ -1,38 +1,52 @@
-.App {
+/*
+
+"StAuth10244: I Mark Kawucha, 000816619 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else."
+
+*/
+
+/* Main app */
+
+body {
+  background-color: whitesmoke !important;
+}
+
+.pageBody {
   text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 2.5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar */
+.nav-link {
+  color: black !important;
+  padding-top: 0.5rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  padding-bottom: 0 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link:hover {
+  color: rgb(70, 153, 173) !important;
+  background-color: rgb(241, 241, 241) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.active {
+  color: whitesmoke !important;
+  background-color: rgb(68, 68, 68) !important;
 }
 
-.App-link {
-  color: #61dafb;
+/* Page text elements */
+p {
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* To-do list */
+
+.textField {
+  margin-right: 1%;
+}
+
+.listBody {
+  margin-left: 20%;
 }
